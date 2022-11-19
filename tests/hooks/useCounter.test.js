@@ -1,7 +1,7 @@
 import { renderHook, act } from "@testing-library/react"
 import { useCounter } from "../../src/hooks/useCounter"
 
-describe('Pruebas en useCounter', () => {
+describe('Tests in useCounter', () => {
     
     test('should return the default values', () => { 
         const { result } = renderHook(() => useCounter())
