@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "test": "jest --watchAll",
+    "test-verbose": "jest --verbose",
     "build": "vite build",
     "preview": "vite preview"
   },
